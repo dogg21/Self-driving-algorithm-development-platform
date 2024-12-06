@@ -63,17 +63,17 @@
 ```bash
    git clone https://github.com/your-username/your-repository.git
 ```
-2. **安裝依賴項目**：本專案依賴於 OpenCvSharp 等 NuGet 套件。請按照以下步驟安裝 Unity 的 NuGet 支援工具：
-- 前往 [NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) 的官方 GitHub 頁面 下載最新版本。
-- 將 `.unitypackage` 匯入到你的 Unity 專案中。
-   - 打開 Unity，進入 **Tools -> NuGet -> Manage NuGet Packages**，搜索並安裝所需的套件：
-```bash
-   Install-Package OpenCvSharp4
-   Install-Package OpenCvSharp4.runtime.win
-```
-3. **開啟專案**：
+2. **開啟專案**：
    - 使用 Unity 編輯器打開專案資料夾。
-   - 確保使用推薦的 Unity 版本，例如 Unity 2021.3 LTS。
+   - 確保使用推薦的 Unity 版本，例如 `Unity 2022.3.21f1 LTS`。
+3. **開始使用**:
+   **載入場景**：
+   - 打開 Unity 編輯器，確保專案已成功載入。
+   - 前往 `Assets/Scenes` 資料夾，找到 `Start`（Scene Asset）。
+   - 將 `Start` 場景拖曳到 Unity 的場景視窗中。
+   **開始模擬**：
+   - 確認場景已正確載入。
+   - 點擊 Unity 上方的 `Play` 按鈕，即可開始模擬。
 
 ---
 

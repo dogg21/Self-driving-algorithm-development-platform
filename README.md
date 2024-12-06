@@ -1,5 +1,3 @@
-# Self-driving-algorithm-development-platform
-
 # 自駕車演算法驗證平台開發
 
 ## 簡介

@@ -46,3 +46,85 @@
 - **RoadRunner**：設計真實道路環境。
 
 ---
+## 目錄
+提供目錄結構，方便快速導航：
+- 安裝
+- 使用說明
+- 檔案結構
+- 技術細節
+- 貢獻方式
+- 授權
+
+---
+
+## 安裝
+詳細說明如何下載並設置專案：
+1. clone專案：
+   git clone https://github.com/your-username/your-repository.git
+
+2. 安裝依賴項目：
+   如果專案有依賴項（例如 NuGet 套件），列出安裝指令，例如：
+   Install-Package OpenCvSharp4
+   Install-Package OpenCvSharp4.runtime.win
+
+3. 開啟專案：
+   - 使用 Unity 編輯器打開專案資料夾。
+   - 確保使用推薦的 Unity 版本，例如 Unity 2021.3 LTS。
+
+---
+
+## 使用說明
+提供使用專案的詳細指導：
+1. 操作介面：
+   描述專案中操作介面的基本功能，例如選擇模擬場景和車型。
+
+2. 模擬運行：
+   - 選擇模擬場景，點擊 Play 按鈕啟動模擬。
+   - 驗證盲點偵測、自動跟車等功能是否正常運行。
+
+3. 客製化測試：
+   說明如何修改場景或參數來進行自定義測試。
+
+---
+
+## 檔案結構
+描述專案的目錄結構，幫助使用者了解檔案的組織方式：
+project-name/
+├── Assets/
+│   ├── Scripts/        自訂腳本檔案
+│   ├── Scenes/         Unity 場景檔案
+│   ├── Models/         車輛與環境模型
+│   └── Resources/      貼圖、音效等資源
+├── Packages/           Unity Package 設定
+├── ProjectSettings/    專案設定檔
+├── .gitignore          Git 忽略規則
+└── README.md           專案說明文件
+
+---
+
+## 技術細節
+列出專案中使用的主要技術和工具：
+- Unity：模擬駕駛場景與測試環境。
+- C#：實作自駕車輔助演算法與感測器模擬。
+- RoadRunner：設計真實道路環境。
+- GitHub：版本控制與專案管理。
+
+---
+
+## 貢獻方式
+鼓勵他人參與專案，並提供貢獻指導：
+1. Fork 專案：在 GitHub 上 Fork 本專案。
+2. 創建分支：對應功能或修正點建立新分支。
+   git checkout -b feature/your-feature
+
+3. 提交更改：將修改提交到自己的分支。
+   git commit -m "描述你的更改"
+
+4. 發起 Pull Request：提交請求以合併更改。
+
+---
+
+## 授權
+本專案採用 MIT 授權條款，詳情請參閱 LICENSE 文件。
+
+---

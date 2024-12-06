@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 908a8b26af164164c869988711952755
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 7cbc042e38c2ddc40a35e5d30307c617
+  - enabled: 1
+    path: Assets/MapScene/Map1.unity
+    guid: db573f838db1b0d409428cc8860c1ba7
+  - enabled: 1
+    path: Assets/MapScene/Map1.1.unity
+    guid: 42fcf4f72f0730b4eb292c7375ceb7e5
+  - enabled: 1
+    path: Assets/MapScene/Map3.1.unity
+    guid: da21113f67bdcdb479ec4d7eaec182a2
+  - enabled: 1
+    path: Assets/MapScene/Map4.1.unity
+    guid: 99a5f6db08214c44d8c3a6ae0ead1050
+  - enabled: 1
+    path: Assets/CarScene/Car1.unity
+    guid: dc27a4df2ef4f80498415631b17d761f
+  - enabled: 1
+    path: Assets/CarScene/Car1.1.unity
+    guid: f9167abf647014646ab5d5e4357e4849
+  - enabled: 1
+    path: Assets/CarScene/Car3.1.unity
+    guid: fc22c108c0102364dbd6b59bd5467bc1
+  - enabled: 1
+    path: Assets/CarScene/Car4.1.unity
+    guid: d099083f5876d9941baf771e60b617ea
+  - enabled: 1
+    path: Assets/ConditionScene/MapCondition1.unity
+    guid: d8d36a404ad4ff64fbc3c90f7aacbd30
+  - enabled: 1
+    path: Assets/ConditionScene/MapCondition2.unity
+    guid: fe33409accaa6b2499e9f0b0f4538b96
+  - enabled: 1
+    path: Assets/ConditionScene/MapCondition3.unity
+    guid: 23c37f9346e82f44b9860d7d4cb27df1
+  - enabled: 1
+    path: Assets/ConditionScene/MapCondition4.unity
+    guid: ade7bc4281bc3a941b5301730035abae
+  m_configObjects: {}

@@ -60,14 +60,16 @@
 ## 安裝
 詳細說明如何下載並設置專案：
 1. clone專案：
+```
    git clone https://github.com/your-username/your-repository.git
-
-2. 安裝依賴項目：
+```
+3. 安裝依賴項目：
    如果專案有依賴項（例如 NuGet 套件），列出安裝指令，例如：
+```
    Install-Package OpenCvSharp4
    Install-Package OpenCvSharp4.runtime.win
-
-3. 開啟專案：
+```
+5. 開啟專案：
    - 使用 Unity 編輯器打開專案資料夾。
    - 確保使用推薦的 Unity 版本，例如 Unity 2021.3 LTS。
 
@@ -89,6 +91,7 @@
 
 ## 檔案結構
 描述專案的目錄結構，幫助使用者了解檔案的組織方式：
+```
 project-name/
 ├── Assets/
 │   ├── Scripts/        自訂腳本檔案
@@ -99,7 +102,7 @@ project-name/
 ├── ProjectSettings/    專案設定檔
 ├── .gitignore          Git 忽略規則
 └── README.md           專案說明文件
-
+```
 ---
 
 ## 技術細節
